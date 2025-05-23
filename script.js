@@ -1,5 +1,5 @@
 // Task 1: Declare and Use Variables
-var studentName = 'Khoa Le';
+var studentName = "Khoa Le";
 var studentAge = 31;
 var isEnrolled = true;
 console.log(studentName);
@@ -7,7 +7,7 @@ console.log(studentAge);
 console.log(isEnrolled);
 
 // Task 2.1: Demonstrate Data Types (String, Number and Boolean)
-let myName = 'Khoa Le';
+let myName = "Khoa Le";
 let myAge = 31;
 console.log(`My name is ${myName} and I'm ${myAge} years old.`);
 
@@ -62,8 +62,8 @@ console.log(output2);
 let a = true;
 let b = false;
 let output3 = `Let a = true and b = false then:
-AND (&&): ${a&&b}
-OR (||): ${a||b}
+AND (&&): ${a && b}
+OR (||): ${a || b}
 NOT (!): ${!a}
 `;
 console.log(output3);
